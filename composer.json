@@ -1,0 +1,24 @@
+{
+  "name": "piotrpress/accessor",
+  "type": "library",
+  "license": "GPL-3.0",
+  "description": "This library provides an access to protected/private, also static, methods/properties of an object/class.",
+  "homepage": "https://PiotrPress",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://github.com/PiotrPress"
+    }
+  ],
+  "keywords": [
+    "accessor", "access", "invoker", "invoke", "caller", "call", "non public method", "non public property", "protected", "private", "protected method", "private method", "static protected method", "static private method", "protected property", "private property", "static protected property", "static private property"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\": "src/"
+    }
+  }
+}
